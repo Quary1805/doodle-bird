@@ -1,0 +1,25 @@
+input {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 80px;
+  font-size: 64px;
+  text-align: center;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #333;
+  color: #ccc;
+}
+
+canvas {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: calc(100vh - 80px);
+}
+
+:focus {
+  outline: none;
+}
